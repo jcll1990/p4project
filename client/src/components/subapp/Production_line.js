@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-function Components_orders() {
+function Production_line() {
 
 
   return (
     <div>
-      <h2>The system</h2>
+            <h1>Production line</h1>
+
     </div>
   );
 }
 
-export default Components_orders;
+export default Production_line;

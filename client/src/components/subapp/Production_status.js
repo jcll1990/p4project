@@ -6,6 +6,8 @@ function Production_status() {
 
   return (
     <div>
+            <h1>Production status</h1>
+
       <div id="pOrderList" ></div>
       <div id="saleGraphs" ></div>
       <div id="orderStatus" ></div>

@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-function Inventory() {
+function Inventory_orders() {
 
 
   return (
     <div>
-      <h2>The system</h2>
+      <h2>Inventory</h2>
     </div>
   );
 }
 
-export default Inventory;
+export default Inventory_orders;
