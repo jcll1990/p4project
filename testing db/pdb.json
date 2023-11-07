@@ -1,0 +1,107 @@
+{
+    "components": [
+        {
+            "id": 1,
+            "wheels_1": 4,
+            "wheels_2": 9,
+            "wheels_3": 7,
+            "frame_1": 10,
+            "frame_2": 20,
+            "frame_3": 5,
+            "engine_1": 0,
+            "engine_2": 3,
+            "engine_3": 2,
+            "paint": 20
+        }
+    ],
+    "p_status": [
+        {
+            "id": 1,
+            "frame_assambling" : 1,
+            "painting" : 2,
+            "engine_assambling" : 5,
+            "engine_setup" : 2
+        },        {
+            "id": 2,
+            "frame_assambling" : 3,
+            "painting" : 4,
+            "engine_assambling" : 2,
+            "engine_setup" : 1
+        },        {
+            "id": 3,
+            "frame_assambling" : 4,
+            "painting" : 5,
+            "engine_assambling" : 2,
+            "engine_setup" : 5
+        }
+
+    ],
+    "stocks": [
+        {
+            "id": 1,
+            "M1": 4,
+            "M2": 9,
+            "M3": 7
+        }
+    ],
+    "mail": [
+        {
+            "id": 1,
+            "user_id_sent": 1,
+            "user_id_received": 2,
+            "message": "TEXT"
+        },
+        {
+            "id": 2,
+            "user_id_sent": 1,
+            "user_id_received": 2,
+            "message": "TEXT2"
+        },
+        {
+            "id": 3,
+            "user_id_sent": 1,
+            "user_id_received": 2,
+            "message": "TEXT3"
+        }
+    ],
+    "s_orders": [
+        {
+            "id": 1,
+            "vendor_id": 1,
+            "date_created": "",
+            "date_required": "",
+            "M1": 5,
+            "M2": 5,
+            "M3": 5,
+            "status": true
+        }
+    ],
+    "p_orders": [
+        {
+            "id": 1,
+            "s_orders_id": 1,
+            "date_created": "",
+            "date_required": "",
+            "M1": 5,
+            "M2": 5,
+            "M3": 5,
+            "status": true
+        }
+    ],
+    "c_orders": [
+        {
+            "id": 1,
+            "wheels_1": 0,
+            "wheels_2": 0,
+            "wheels_3": 0,
+            "frame_1": 0,
+            "frame_2": 0,
+            "frame_3": 0,
+            "engine_1": 0,
+            "engine_2": 0,
+            "engine_3": 10,
+            "paint": 0,
+            "status": true
+        }
+    ]
+}
